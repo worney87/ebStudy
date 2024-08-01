@@ -1,0 +1,25 @@
+.App {
+    text-align: center;
+}
+
+.HeaderStyle {
+    width: 1200px;
+    height: 10vmin;
+    margin: auto;
+    background-color: rgba(252, 241, 0);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    font-weight: bold;
+}
+
+.MainStyle {
+    width: 1200px;
+    height: calc(100vh - 10vmin);
+    margin: auto;
+    background: rgb(255, 253, 208);
+    background: linear-gradient(0deg, rgba(0, 255, 214, 1) 0%, rgba(252, 241, 0, 1) 100%);
+}
